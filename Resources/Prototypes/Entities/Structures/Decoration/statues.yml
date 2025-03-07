@@ -41,3 +41,29 @@
   - type: Construction
     graph: BananiumStatueClown
     node: bananiumStatue
+
+type: entity
+  id: StatuePersephone
+  parent: BaseStructure
+  name: Persephone idol
+  description: Made to be true to who she was, a nurturer of those who fell, but cold and harsh to those who deserved to fall.
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Structures/Decoration/statues.rsi/Idols
+    state: Persephone_statue
+    drawdepth: Mobs
+    offset: "0.0,0.5"
+
+type: entity
+  id: StatuePersephone
+  parent: BaseStructure
+  name: Artemis idol
+  description: Crafted from Moonstone, the aura of her balancing act is felt through the craftmanship. Not too little, but not too much.
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: Structures/Decoration/statues.rsi/Idols
+    state: artemis_statue
+    drawdepth: Mobs
+    offset: "0.0,0.5"
